@@ -1,0 +1,12 @@
+{
+  "name": "swarmApp",
+  "integrations": {},
+  "type": "ionic1",
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ],
+  "id": "c027a9a4"
+}
