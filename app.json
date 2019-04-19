@@ -4,6 +4,8 @@
     "slug": "rare_app",
     "privacy": "public",
     "sdkVersion": "32.0.0",
+    "facebookAppId": "2331852303804066",
+    "facebookScheme": "fb2331852303804066",
     "platforms": [
       "ios",
       "android"

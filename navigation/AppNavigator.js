@@ -10,6 +10,7 @@ import {
 import { createStackNavigator, createAppContainer, createSwitchNavigator } from 'react-navigation';
 
 import MainTabNavigator from './MainTabNavigator';
+import FacebookLogin from "../OAuth/FacebookLogin";
 
 class SignInScreen extends React.Component {
   static navigationOptions = {
@@ -39,6 +40,7 @@ class HomeScreenApp extends React.Component {
     return (
         <View style={styles.container}>
           <Button title="Show me more of the app" onPress={this._showMoreApp} />
+          <FacebookLogin/>
           <Button title="Actually, sign me out :)" onPress={this._signOutAsync} />
         </View>
     );
